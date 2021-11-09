@@ -95,7 +95,7 @@ FOREIGN KEY(Employee_ID) REFERENCES EMPLOYEE(Employee_ID)
 
 CREATE TABLE BOOKING_DETAIL (
 	Reservation_no			varchar(255) not null,
-	Date_End				varchar(25) not null,
+	Date_End				varchar(255) not null,
 	Location_Dropoff		varchar(255),
     Location_Pickup			varchar(255) not null,
     Date_Start				varchar(255),
