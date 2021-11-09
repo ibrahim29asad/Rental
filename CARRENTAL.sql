@@ -35,9 +35,9 @@ FOREIGN KEY(Store_Id) REFERENCES RENTAL_CENTER(Store_Id)
 
 CREATE TABLE EMPLOYEE (
 	Employee_ID	    int not null,
-	Fname			varchar(25),
-	Lname			varchar(12),
-    Position		varchar(2),
+	Fname			varchar(255),
+	Lname			varchar(255),
+    Position		varchar(255),
     Store_Id        integer,
     License_no      int,
 	primary key (Employee_ID),
@@ -93,13 +93,6 @@ FOREIGN KEY(Employee_ID) REFERENCES EMPLOYEE(Employee_ID)
 
 
 
-
-
-
-
-
-
-
 CREATE TABLE BOOKING_DETAIL (
 	Reservation_no			varchar(255) not null,
 	Date_End				varchar(25) not null,
@@ -117,8 +110,6 @@ CREATE TABLE BOOKING_DETAIL (
 
 
 
-
-DROP TABLE IF EXISTS MAINTENANCE;
 CREATE TABLE MAINTENANCE
 (
 License_Plate varchar(255),
