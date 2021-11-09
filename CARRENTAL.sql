@@ -98,7 +98,7 @@ CREATE TABLE BOOKING_DETAIL (
 	Date_End				varchar(25) not null,
 	Location_Dropoff		varchar(255),
     Location_Pickup			varchar(255) not null,
-    Date_Start				varchar(25),
+    Date_Start				varchar(255),
     License_no				int not null,
     Employee_ID				int not null,
     License_Plate           varchar(255) not null,
