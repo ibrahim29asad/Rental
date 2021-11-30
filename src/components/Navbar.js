@@ -3,7 +3,9 @@ import React from "react"
 export default function Navbar() {
     return (
         <nav>
-            <h1 className="nav--logo_text">LOGO HERE</h1>
+            <img src="../images/logo192.png" />
+            <h3>Cars</h3>
+            <h4>Login</h4>
         </nav>
     )
 }
