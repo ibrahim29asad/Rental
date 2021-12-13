@@ -4,7 +4,7 @@ import React from "react"
     return (
          <main>
              <h1 className="main--title">Employee: Car Maintenance</h1>
-             <h2 className="main--title">Payment:</h2>
+             <h2 className="main--title">Update Maintenance:</h2>
              <form className = "main--form">
                  <label>
                      License Plate:
