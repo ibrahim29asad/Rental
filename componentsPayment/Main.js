@@ -1,5 +1,7 @@
 
 import React from "react"
+import {Link} from 'react-router-dom'
+
 
  export default function Payment() {
     return (
@@ -61,6 +63,9 @@ import React from "react"
                  </label>
                 <input type="submit" value="Submit" />
                  </form>
+            <ul>
+                <li><h1><Link to="/">Confirm Payment</Link></h1></li>
+            </ul>
          </main>
      )
  } 

@@ -1,12 +1,5 @@
 import React from "react"
-import {BrowserRouter, Routes, Route, Link, useNavigate} from 'react-router-dom'
-import {useState} from "react"
-import Employee from "../componentsEmployeeMain/Main"
-import AddCar from "../componentsAddCar/Main"
-import editCar from "../componentsEditCar/Main"
-import bookingDetails from "../componentsBookingDetails/Main"
-import updateMaintenance from "../componentsUpdateMaintenance/Main"
-import viewMaintenance from "../componentsViewMaintenance/Main"
+import {Link, useNavigate} from 'react-router-dom'
 
 
 export default function Main() {
