@@ -12,6 +12,8 @@ import EditCar from "./componentsEditCar/Main"
 import BookingDetails from "./componentsBookingDetails/Main"
 import UpdateMaintenance from "./componentsUpdateMaintenance/Main"
 import ViewMaintenance from "./componentsViewMaintenance/Main"
+import AddMaintenance from "./componentsAddMaintenance/Main"
+import RemoveCar from "./componentsRemoveCar/Main"
 
 
 ReactDOM.render(
@@ -27,6 +29,8 @@ ReactDOM.render(
             <Route path="bookingDetails" element={<BookingDetails />} />
             <Route path="updateMaintenance" element={<UpdateMaintenance />} />
             <Route path="viewMaintenance" element={<ViewMaintenance />} />
+            <Route path="addMaintenance" element={<AddMaintenance />} />
+            <Route path="removeCar" element={<RemoveCar />} />
         </Routes>
     </BrowserRouter>
 
