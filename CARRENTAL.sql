@@ -70,13 +70,13 @@ CREATE TABLE EMPLOYEE (
 INSERT INTO EMPLOYEE (Employee_ID, Fname, Lname, Positions, Store_Id, License_no)
 VALUES
 (00102,'Cassie','Ellis','Receptionist', 10,11111),
-(00203,'Janet','Thompson','Janitor', 10,22222),
+(00203,'Janet','Thompson','Receptionist', 10,22222),
 (00304,'Bob','Liger', 'Manager', 10,33333),
 (00405,'Casio','Spider','Receptionist', 11,44444),
-(00506,'Josh','Abso','Janitor', 11,55555),
+(00506,'Josh','Abso','Receptionist', 11,55555),
 (00607,'Ellie','Holland', 'Manager', 11,66666),
 (00708,'Alex','Ellis','Receptionist', 12,77777),
-(00809,'Tom','Sims','Janitor', 12,88888),
+(00809,'Tom','Sims','Receptionist', 12,88888),
 (00910,'Naruto','Uzumakie', 'Manager', 12,99999);
 
 
