@@ -20,8 +20,8 @@ export default function App() {
         <div className="container">
             <Welcome />
             <ul>
-                <li><h1><Link to="/login">Login</Link></h1></li>
-                <li><h1><Link to="/cars">Cars</Link></h1></li> 
+                <li><h1><Link to="/login">Employee Login</Link></h1></li>
+                <li><h1><Link to="/customerInfo">Rent a Car</Link></h1></li> 
             </ul>
         </div>
     )

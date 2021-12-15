@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
  export default function Payment() {
     return (
          <main>
-             <h1 className="main--title">Please Provide Customer Info and Payment:</h1>
+             <h1 className="main--title">Please Provide Payment Information:</h1>
              <h2 className="main--title">Payment:</h2>
              <form className = "main--form">
                  <label>
@@ -31,38 +31,6 @@ import {Link} from 'react-router-dom'
                      <input type="text" name="Billing Address" />
                  </label>
              </form>
-             <h3 className="main--title">Customer Info:</h3>
-              <form className = "main--form">
-                <label>
-                     First Name:
-                     <input type="text" name="First Name" />
-                 </label>
-                <label>
-                     Last Name:
-                     <input type="text" name="Last Name" />
-                 </label>
-                 <label>
-                     DOB:
-                     <input type="text" name="DOB" />
-                 </label>
-                 <label>
-                     License Number:
-                     <input type="text" name="License Number" />
-                 </label>
-                <label>
-                     Address:
-                     <input type="text" name="Address" />
-                 </label>
-                <label>
-                     Email:
-                     <input type="text" name="Email" />
-                 </label>
-                <label>
-                     Phone:
-                     <input type="text" name="Phone" />
-                 </label>
-                <input type="submit" value="Submit" />
-                 </form>
             <ul>
                 <li><h1><Link to="/">Confirm Payment</Link></h1></li>
             </ul>
